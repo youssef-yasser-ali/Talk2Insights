@@ -27,7 +27,17 @@ Talk2Insights is a web application that enables users to convert spoken audio in
 
 ## Demo
 
-![Talk2Insights Demo](https://github.com/youssef-yasser-ali/Talk2Insights/blob/master/demo/demo.gif)
+#### Home Page:
+
+![Home Demo](https://github.com/youssef-yasser-ali/Talk2Insights/blob/master/demo/demo.gif)
+
+#### About Page:
+
+![About Page](https://github.com/youssef-yasser-ali/Talk2Insights/blob/master/demo/demo_about.png)
+
+#### Contact Page:
+
+![Contact Page](https://github.com/youssef-yasser-ali/Talk2Insights/blob/master/demo/demo_contact.png)
 
 ## Getting Started
 
