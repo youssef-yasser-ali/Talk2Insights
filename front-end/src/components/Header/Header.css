@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 50vh;
+  color: #fff;
+}
+.header span {
+  color: #00ff80;
+}
+
+.header-title {
+  font-size: 5rem;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header-description {
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+@media (max-width: 1000px) {
+  .header-title {
+    font-size: 2rem;
+  }
+}

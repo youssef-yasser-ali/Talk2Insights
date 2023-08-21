@@ -1,0 +1,129 @@
+.contact {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-container {
+  text-align: center;
+  color: #fff;
+  margin: 1rem;
+}
+
+.contact-content {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.contact-details p {
+  margin: 10px 0;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+.contact-logo img {
+  max-width: 65%;
+  border-radius: 0.3rem;
+}
+.social-media a {
+  font-size: 24px;
+  margin-right: 20px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  transform: scale(1.1);
+
+  color: #00ff80;
+}
+
+.contact-form {
+  width: 40%;
+  text-align: left;
+  background-color: #8a8a8a17;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.contact-form h2 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  padding: 0 0 5px 5px;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 7px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem 1rem;
+  background-color: #333;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.83rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #00ff80;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.hint {
+  color: #b3b3b3;
+  font-size: 0.7rem;
+  /* max-width: 400px; */
+}
+
+@media (max-width: 1000px) {
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form {
+    margin-top: 2rem;
+  }
+
+  .contact-form h2 {
+    font-size: 1.5rem;
+  }
+  .contact-form .form-group label {
+    font-size: 1rem;
+  }
+  .contact-form .form-group input,
+  .contact-form .form-group textarea {
+    font-size: 0.8rem;
+  }
+}

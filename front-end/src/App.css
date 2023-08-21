@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  background-color: #212121;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content {
+  flex-grow: 1; /* Grow and take up remaining space */
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .App {
+    font-size: 0.7125rem;
+  }
+}
