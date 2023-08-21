@@ -4,7 +4,7 @@ Talk2Insights is a web application that enables users to convert spoken audio in
 
 ## Features
 
-- Record and upload audio files in WAV format.
+- Record and upload audio files in WAV and MP3 format.
 - Convert spoken audio into text using speech recognition.
 - Summarize the text content for quick insights.
 - Analyze the sentiment of the conversation using sentiment analysis.
