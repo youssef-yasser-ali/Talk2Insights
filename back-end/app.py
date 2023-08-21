@@ -58,7 +58,7 @@ def process():
         # Analyze sentiment
         sentiment = sentiment_analyzer(text)[0]
         sentiment_label = sentiment['label']
-        sentiment_score = sentiment['score']
+        sentiment_score = round(sentiment['score'] , 2) * 100
 
         os.remove(audio_path)  # Remove the temporary audio file
 

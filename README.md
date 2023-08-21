@@ -25,6 +25,10 @@ Talk2Insights is a web application that enables users to convert spoken audio in
 - `SpeechRecognition` for converting speech to text.
 - `Pydub` for converting audio files to WAV format.
 
+## Demo
+
+![Talk2Insights Demo](front-end/src/assets/demo/demo.gif)
+
 ## Getting Started
 
 1. **Clone the Repository:**

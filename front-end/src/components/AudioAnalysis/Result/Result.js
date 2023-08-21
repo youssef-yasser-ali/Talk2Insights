@@ -30,7 +30,7 @@ function Results({ data }) {
             <h2> Sentiment : </h2>
             <div>
               <p>
-                {data.sentiment_label} ({data.sentiment_score})
+                {data.sentiment_label} {data.sentiment_score}%
               </p>
               <span className="color" style={{ backgroundColor: color }}></span>
             </div>

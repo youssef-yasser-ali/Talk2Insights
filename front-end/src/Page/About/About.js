@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-import img1 from "../../assets/img5.jpg";
+import img1 from "../../assets/img/img5.jpg";
 function About() {
   return (
     <>

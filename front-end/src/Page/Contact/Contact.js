@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import logoImg from "../../assets/img2.jpg";
+import logoImg from "../../assets/img/img2.jpg";
 import { APIURL } from "../../config";
 import TextInput from "../../components/AudioAnalysis/Form/TextInput/TextInput";
 
